@@ -1,0 +1,29 @@
+{
+  "homepage": "http://danistorn.github.io/api-rest-peliculas",
+  "name": "api-rest-peliculas",
+  "version": "1.0.0",
+  "description": "Curso práctico de consumo de API Rest con JavaScript",
+  "main": "index.html",
+},
+    "scripts": {
+      "start": "react-sripts start",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-script eject",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danistorn/api-rest-peliculas.git"
+  },
+  "author": "@danistorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danistorn/api-rest-peliculas/issues"
+  },
+  "homepage": "https://github.com/danistorn/api-rest-peliculas#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
